@@ -12,10 +12,6 @@ sourceCompatibility = 1.8
 targetCompatibility = 1.8
 
 dependencies {
-    compile 'org.eclipse.aether:aether-api:1.1.0'
-    compile 'org.eclipse.aether:aether-spi:1.1.0'
-    compile 'org.eclipse.aether:aether-util:1.1.0'
-    compile 'org.eclipse.aether:aether-impl:1.1.0'
-    compile 'org.apache.maven:maven-aether-provider:3.3.9'
-    compile 'org.apache.maven:maven-artifact:3.3.9'
+    compile 'org.apache.maven:maven-resolver-provider:3.5.4'
+    compile 'org.apache.maven:maven-artifact:3.5.4'
 }

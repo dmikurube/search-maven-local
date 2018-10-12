@@ -18,6 +18,7 @@ import java.nio.file.Files;
 import java.nio.file.NoSuchFileException;
 import java.nio.file.NotDirectoryException;
 import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
@@ -39,7 +40,8 @@ import org.eclipse.aether.resolution.ArtifactResolutionException;
 import org.eclipse.aether.resolution.ArtifactResult;
 
 public class SearchMavenLocal {
-    public static void main(final String[] args) {
+    public static void main(final String[] args) throws Exception {
+        final MavenArtifactFinder finder = MavenArtifactFinder.create(Paths.get("/tmp"));
     }
 }
 
